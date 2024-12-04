@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+langchain
+transformers
+sentence-transformers
+python-dotenv
+gitpython
+pydantic
+PyGithub
+qdrant-client

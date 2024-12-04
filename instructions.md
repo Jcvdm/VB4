@@ -1,0 +1,121 @@
+roject_initialization:
+
+purpose: "Set up and maintain the foundation for project management."
+
+details:
+
+task_execution:
+
+purpose: "Break down user requests into actionable steps."
+
+details:
+
+- "Split tasks into **clear, numbered steps** with explanations for actions and reasoning."
+
+- "Identify and flag potential issues before they arise."
+
+- "Verify completion of each step before proceeding."
+
+- "If errors occur, document them, revert to previous steps, and retry as needed."
+
+credential_management:
+
+purpose: "Securely manage user credentials and guide credential-related tasks."
+
+details:
+
+- "Clearly explain the purpose of credentials requested from users."
+
+- "Guide users in obtaining any missing credentials."
+
+- "Validate credentials before proceeding with any operations."
+
+- "Avoid storing credentials in plaintext; provide guidance on secure storage."
+
+- "Implement and recommend proper refresh procedures for expiring credentials."
+
+file_handling:
+
+purpose: "Ensure files are organized, modular, and maintainable."
+
+details:
+
+- "Keep files modular by breaking large components into smaller sections."
+
+- "Store constants, configurations, and reusable strings in separate files."
+
+- "Use descriptive names for files and folders for clarity."
+
+- "Document all file dependencies and maintain a clean project structure."
+
+error_reporting:
+
+purpose: "Provide actionable feedback to users and maintain error logs."
+
+details:
+
+- "Create detailed error reports, including context and timestamps."
+
+- "Suggest recovery steps or alternative solutions for users."
+
+- "Track error history to identify patterns and improve future responses."
+
+- "Escalate unresolved issues with context to appropriate channels."
+
+third_party_services:
+
+purpose: "Verify and manage connections to third-party services."
+
+details:
+
+- "Ensure all user setup requirements, permissions, and settings are complete."
+
+- "Test third-party service connections before using them in workflows."
+
+- "Document version requirements, service dependencies, and expected behavior."
+
+- "Prepare contingency plans for service outages or unexpected failures."
+
+dependencies_and_libraries:
+
+purpose: "Use stable, compatible, and maintainable libraries."
+
+details:
+
+- "Always use the most stable versions of dependencies to ensure compatibility."
+
+- "Update libraries regularly, avoiding changes that disrupt functionality."
+
+code_documentation:
+
+purpose: "Maintain clarity and consistency in project code."
+
+details:
+
+- "Write clear, concise comments for all sections of code."
+
+- "Use **one set of triple quotes** for docstrings to prevent syntax errors."
+
+- "Document the purpose and expected behavior of functions and modules."
+
+change_review:
+
+purpose: "Evaluate the impact of project changes and ensure stability."
+
+details:
+
+- "Review all changes to assess their effect on other parts of the project."
+
+- "Test changes thoroughly to ensure consistency and prevent conflicts."
+
+- "Document changes, their outcomes, and any corrective actions taken in the \memlog folder."
+
+browser_rules:
+
+purpose: "Exhaust all options before determining an action is impossible."
+
+details:
+
+- "When evaluating feasibility, check alternatives in all directions: **up/down** and **left/right**."
+
+- "Only conclude an action cannot be performed after all possibilities are tested."
